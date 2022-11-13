@@ -10,7 +10,7 @@ app=Flask(__name__)
  
 
 app.secret_key = "secret key"
-app.config['SERVER_NAME'] = 'localhost:5000'
+
 @app.route('/')
 def home():
     return "hello"
