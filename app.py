@@ -5,7 +5,7 @@ from tensorflow import keras
 import tensorflow as tf
 
 from classfication import pred
-app=Flask(__name__,static_folder="assets")
+app=Flask(__name__)
 
  
 
