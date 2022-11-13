@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-model=keras.models.load_model("Model/model.h5")
+model=keras.models.load_model("model.h5")
 classes_name={0:"Choroidal neovascularization",1:"Diabetic macular edema ",2:"Drusen",3:"Normal"}
 
 def pred(img_path):
